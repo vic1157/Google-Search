@@ -1,0 +1,99 @@
+// Testing a background color
+$background-color: azure;
+
+// Height and Width for icons
+$icon-height: 32px;
+
+//Footer color
+$footer-color: #f0f0f0;
+
+nav {
+	.nav-link {
+		font-size: 14px;
+		color: black;
+	}
+}
+
+input {
+	.form-control {
+		&:focus {
+			outline: none;
+    		box-shadow: none;
+    		border-color: none;
+		}
+
+	}
+}
+
+
+body {
+
+	#Capa_1 {
+		height: $icon-height;
+		width: $icon-height; 
+	}
+
+	#thead {
+		font-size: 18px;
+	}
+
+	#header-col {
+		flex: 0 0 auto;
+		width: 42.7%;
+	}
+
+	.col-custom {
+		flex: 0 0 auto;
+		width: 12%;
+	}
+
+	.lead {
+		font-size: 17px;
+	}
+
+	.follow {
+		font-size: 15px;
+	}
+
+	.main-font {
+		color: rgb(221, 66, 66);
+	}
+
+	.icon2 {
+		fill: rgb(114,164,248);
+		height: 26px;
+		width: 26px; 
+		stroke-width: 10;
+	}
+
+	.mybody {
+		margin-top: 120px;
+		// margin-bottom: 243px;
+	}
+
+	.icon1 {
+		fill: gray;
+		height: 20px;
+		width: 20px; 
+	}
+
+	.btn {
+		font-size: 14px;
+	}
+
+	.igt {
+		background-color: white;
+	}
+
+	hr {
+		opacity: 15%;
+	}
+
+} 
+
+#footer1 {
+	background-color: $footer-color;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}

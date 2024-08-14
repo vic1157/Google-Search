@@ -1,0 +1,67 @@
+nav .nav-link {
+  font-size: 14px;
+  color: black;
+}
+
+input .form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: none;
+}
+
+body #Capa_1 {
+  height: 32px;
+  width: 32px;
+}
+body #thead {
+  font-size: 18px;
+}
+body #header-col {
+  flex: 0 0 auto;
+  width: 42.7%;
+}
+body .col-custom {
+  flex: 0 0 auto;
+  width: 12%;
+}
+body .lead {
+  font-size: 17px;
+}
+body .follow {
+  font-size: 15px;
+}
+body .main-font {
+  color: rgb(221, 66, 66);
+}
+body .icon2 {
+  fill: rgb(114, 164, 248);
+  height: 26px;
+  width: 26px;
+  stroke-width: 10;
+}
+body .mybody {
+  margin-top: 120px;
+}
+body .icon1 {
+  fill: gray;
+  height: 20px;
+  width: 20px;
+}
+body .btn {
+  font-size: 14px;
+}
+body .igt {
+  background-color: white;
+}
+body hr {
+  opacity: 15%;
+}
+
+#footer1 {
+  background-color: #f0f0f0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/*# sourceMappingURL=google2.css.map */
